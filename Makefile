@@ -24,7 +24,7 @@ src/moc_view.cpp: src/view.hpp
 
 src/moc_engine.cpp: src/engine.hpp
 	@echo "Meta object compiling"
-	moc $(INCPATH) engine.hpp -o moc_engine.cpp
+	moc $(INCPATH) src/engine.hpp -o src/moc_engine.cpp
 
 
 ####### Compile
