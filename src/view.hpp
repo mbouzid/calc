@@ -7,8 +7,6 @@ class translator;
 
 class view : public QWidget
 {
-    Q_OBJECT
-
     friend class translator;
     private :
         
