@@ -3,6 +3,9 @@
 #include <QObject>
 #include <Qt/QtGui>
 
+#include "view.hpp"
+#include "engine.hpp"
+
 class translator
 {
     
